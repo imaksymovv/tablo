@@ -3,12 +3,12 @@
 int seconds_conversion(int);
 
 int main() {
-	int n = 0;
+	int a = 0;
 	std::cout << "Enter number of seconds" << std::endl;
 	do {
-		std::cin >> n;
-		seconds_conversion(n);
-	} while (n != 0);
+		std::cin >> a;
+		seconds_conversion(a);
+	} while (a != 0);
 	std::cout << "its time to relax!" << std::endl;
 	return 0;
 }
